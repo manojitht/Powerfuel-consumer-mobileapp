@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFf88512),
+      backgroundColor: Color(0xFF292928),
       body: SafeArea(
         child: WebView(
           initialUrl: 'http://env-samplepowerfuel.eba-hppy27ka.us-west-2.elasticbeanstalk.com/fs-admin',
