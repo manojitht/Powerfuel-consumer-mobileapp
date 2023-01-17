@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       backgroundColor: Color(0xFF292928),
       body: SafeArea(
         child: WebView(
-          initialUrl: 'http://env-samplepowerfuel.eba-hppy27ka.us-west-2.elasticbeanstalk.com/fs-admin',
+          initialUrl: 'http://env-powerfuel.eba-grudk3nn.us-west-2.elasticbeanstalk.com',
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (WebViewController powerfuel){
             _controller = powerfuel;
